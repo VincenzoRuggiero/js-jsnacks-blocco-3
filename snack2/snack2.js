@@ -7,7 +7,7 @@ while (i < 50) {
   let userNums1 = parseInt(prompt("Inserisci un numero"));
   let userNums2 = parseInt(prompt("Inserisci un numero"));
 
-  sum = userNums1 + userNums2;
+  let sum = userNums1 + userNums2;
 
   console.log(sum);
 
