@@ -4,7 +4,7 @@ const startingList = [
 const secondList = [];
 let number;
 
-for (let i = 0; i < startingList.length; i++) {
+for (let i = 0; i < 10; i++) {
   number = Math.floor(Math.random() * startingList[i] + 1);
   secondList.push(number);
 }
